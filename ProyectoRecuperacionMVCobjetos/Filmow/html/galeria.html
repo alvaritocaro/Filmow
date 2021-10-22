@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Te mostramos una galería de películas con las mejores reviews!">
+    <link rel="stylesheet" href="./css/galeria.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Películas</title>
+</head>
+<body>
+    <div class="carousel-item active">
+      <div class="container">
+        <div class="row">
+            ##pelicula##
+            <div id="pelicula" class="col-lg-4">
+                <div class="card">
+                    <img id="imagenPeli"
+                        style="width: 279; height: 400;"
+                        src="./imagenes/peliculas/##imagen##"
+                        class="card-img-top"
+                        alt="##titulo##"
+                    />
+                    <div class="card-body">
+                        <h1 id="titulo" class="card-title">##titulo##</h1>
+                        <a id="botonPelicula" href="./index.php?controlador=Pelicula&accion=film&id=##id##" class="btn btn-dark">Ver</a>
+                    </div>
+                </div>
+            </div>
+            ##pelicula##
+        </div>
+      </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,42 @@
+#portada{
+    padding: 50px;
+}
+body{
+    background-color: black;
+    margin: auto;
+}
+a{
+    font-weight: bold;
+}
+h1{
+    font-size: 100px;
+    color: white;
+    text-align: center;
+}
+h2{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+#boton{
+    font-weight: bold;
+    font-size: 20px;
+}
+#titulo{
+    margin-top: 2.5%;
+    text-align: center;
+}footer{
+    background-color: white;
+}
+.card{
+    padding: 40px;
+}
+#contacto{
+    padding-bottom: 30px;
+}
+.imagenAbajo{
+    width: 100px;
+    height: 100px;
+    padding-bottom: 20px;
+}

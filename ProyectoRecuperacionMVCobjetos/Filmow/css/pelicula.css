@@ -1,0 +1,17 @@
+#infoPeli{
+    background-color: black;
+    padding: 35px;
+}
+#opciones{
+    text-align: left;
+    color: white;
+    padding: 40px;
+}
+iframe{
+    margin-left: 30%;
+}
+#desytrailer{
+    background-color: black;
+    border-color: black;
+    border: 5px solid;
+}

@@ -1,0 +1,13 @@
+#pelicula{
+    padding: 30px;
+}
+
+#titulo{
+    font-size: 30px;
+}
+#botonPelicula{
+    font-size: 20px;
+}
+#imagenPeli:hover{
+    transform: scale(1.10);
+}

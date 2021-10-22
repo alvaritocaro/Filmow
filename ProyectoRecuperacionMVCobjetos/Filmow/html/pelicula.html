@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="./css/pelicula.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descubre la fecha de estreno, sinopsis y trailer de ##titulo##!">
+    <title>##titulo##</title>
+</head>
+<body> 
+    <div id="infoPeli" class="card">
+        <div class="row no-gutters">
+            <div class="col-auto">
+                <img id="imagenPeli" src="./imagenes/peliculas/##imagen##" class="img-fluid" alt="##titulo##">
+            </div>
+            <div class="col">
+                <div class="card-block mb-3 px-2">
+                    <ul id="infoPelicula" class="list-group bg-primary">
+                        <li class="list-group-item"><h1>##titulo##</h1></li>
+                        <li class="list-group-item">Fecha estreno: ##fechaEstreno##</li>
+                        <li class="list-group-item">Duración: ##Duracion## minutos</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="desytrailer">
+      <div class="row">
+        <div class="col-4">
+          <div class="list-group list-group-horizontal" id="list-tab" role="tablist">
+            <a class="list-group-item list-group-item-action active list-group-item-dark" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="profile">Descripción</a>
+            <a class="list-group-item list-group-item-action list-group-item-dark" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Trailer</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-8">
+        <div id="opciones" class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">##Descripcion##</div>
+            <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+              <iframe width="560" height="315" src="##trailer##" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+        
+</body>
+</html>
